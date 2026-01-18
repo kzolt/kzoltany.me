@@ -187,8 +187,7 @@ export function HeroSection() {
 								exploring <span className="text-foreground">Vulkan</span> and{" "}
 								<span className="text-foreground">Direct3D</span>. Currently
 								learning{" "}
-								<span className="text-[var(--syntax-orange)]">Rust</span>{" "}
-								through Advent of Code.
+								<span className="text-[var(--syntax-orange)]">Rust</span>.
 							</p>
 						</div>
 					</motion.div>
