@@ -1,29 +1,56 @@
-# Create T3 App
+# kzoltany.me
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+My personal website built with [Next.js](https://nextjs.org/) and hosted on [Vercel](https://vercel.com/).
 
-## What's next? How do I make an app with this?
+## Features
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- Modern and responsive design
+- Clean and minimal codebase
+- TypeScript support
+- Tailwind CSS for styling
+- Next.js for server-side rendering
+- Vercel for deployment
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Getting Started
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+To get started, follow these steps:
 
-## Learn More
+1. Clone the repository:
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+```bash
+git clone https://github.com/kzolt/kzoltany.me.git
+```
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+2. Install dependencies:
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+```bash
+pnpm install
+```
 
-## How do I deploy this?
+3. Create a `.env` file in the root of the project:
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+```bash
+# Copy from .env.example
+cp .env.example .env
+```
+
+4. Start the development server:
+
+```bash
+pnpm dev
+```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+
+## Customization
+
+You can customize the website by modifying the following files:
+
+- `src/components/contact-section.tsx` - Contact form
+- `src/components/hero-section.tsx` - Hero section
+- `src/components/pinned-section.tsx` - Pinned repositories section
+- `src/components/projects-section.tsx` - Projects section
+- `src/components/skills-section.tsx` - Skills section
+- `src/components/ui/field.tsx` - Field components
+- `src/components/ui/terminal.tsx` - Terminal components
+
